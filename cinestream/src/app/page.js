@@ -4,18 +4,24 @@ export default function Home() {
   return (
       <>
       <nav className="bg-violet-700 w-auto h-20 justify-center flex">
-        <h1 className=" mt-5 caret-violet-950 font-bold">Cine Stream</h1>
+        <h1 className=" mt-5 text-violet-950 font-bold text-4xl">Cine Stream</h1>
       </nav>
-      <div className=" bg-gray-500 mt-10 ml-auto mr-auto w-auto max-w-lg max-h-72 h-auto rounded-md flex-row justify-center items-center" >
-        <h1 className=" flex justify-center mt-7">Login</h1>
-        <div className="flex-row justify-center mt-7 items-center">
+      <div className=" bg-gray-300 mt-10 ml-auto mr-auto w-auto max-w-lg max-h-72 h-auto rounded-md flex-row justify-center items-center p-4" >
+        <h1 className=" flex justify-center text-4xl text-violet-950 font-bold">Login</h1>
+        <div className=" flex flex-col justify-center mt-7 items-center">
+          <div className=" flex-col justify-center items-center mt-10">
+            <p className=" justify-center flex">E-mail</p>
+            <input className=" flex justify-center rounded-md" type="text" />
 
-          <p className="">E-mail</p>
-          <input className="" type="text" />
-          <p>Senha</p>
-          <input type="password" />
-          <input type="button" />
-          <input type="submit" />
+          </div>
+          <p className="mt-4">Senha</p>
+          <input className=" flex justify-center rounded-md pl-1 mt-1"type="password" placeholder='senha' />
+
+        </div>
+        <div className=" flex flex-row justify-center mt-7 items-center">
+
+          <button className=" bg-violet-700">Entrar</button>
+          
 
         </div>
       </div>

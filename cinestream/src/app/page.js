@@ -6,24 +6,26 @@ export default function Home() {
       <nav className="bg-violet-700 w-auto h-20 justify-center flex">
         <h1 className=" mt-5 text-violet-950 font-bold text-4xl">Cine Stream</h1>
       </nav>
-      <div className=" bg-gray-300 mt-10 ml-auto mr-auto w-auto max-w-lg max-h-72 h-auto rounded-md flex-row justify-center items-center p-4" >
+      <div className=" bg-gray-300 mt-36 ml-auto mr-auto w-auto max-w-[518px] h-[560px] rounded-md flex-row justify-center items-center p-7" >
         <h1 className=" flex justify-center text-4xl text-violet-950 font-bold">Login</h1>
         <div className=" flex flex-col justify-center mt-7 items-center">
-          <div className=" flex-col justify-center items-center mt-10">
+          <div className=" flex-col justify-center items-center mt-24">
             <p className=" justify-center flex">E-mail</p>
-            <input className=" flex justify-center rounded-md" type="text" />
+            <input className=" flex justify-center rounded-md p-2 w-80 h-8" type="text" />
 
           </div>
           <p className="mt-4">Senha</p>
-          <input className=" flex justify-center rounded-md pl-1 mt-1"type="password" placeholder='senha' />
+          <input className=" flex justify-center rounded-md p-2 mt-1 w-80 h-8"type="password" placeholder='' />
 
         </div>
-        <div className=" flex flex-row justify-center mt-7 items-center">
+        <div className=" flex flex-row justify-center mt-10 items-center">
 
-          <button className=" bg-violet-700">Entrar</button>
+          <button className=" bg-violet-700 w-80 h-8 rounded-md text-white" >Entrar</button>
+          
           
 
         </div>
+        <a className=" flex flex-col justify-center items-center mt-9"href="">Esqueci minha senha</a>
       </div>
       </>
     // <main className="flex min-h-screen flex-col items-center justify-between p-24">

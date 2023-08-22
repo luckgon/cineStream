@@ -6,7 +6,7 @@ export default function Home() {
       <nav className="bg-violet-700 w-auto h-20 justify-center flex">
         <h1 className=" mt-5 text-violet-950 font-bold text-4xl">Cine Stream</h1>
       </nav>
-      <div className=" bg-gray-300 mt-36 ml-auto mr-auto w-auto max-w-[518px] h-[560px] rounded-md flex-row justify-center items-center p-7" >
+      <div className=" bg-gray-300 mt-36 ml-auto mr-auto w-auto max-w-[518px] h-[560px] rounded-md flex-row justify-center items-center p-7 shadow-xl" >
         <h1 className=" flex justify-center text-4xl text-violet-950 font-bold">Login</h1>
         <div className=" flex flex-col justify-center mt-7 items-center">
           <div className=" flex-col justify-center items-center mt-24">

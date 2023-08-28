@@ -1,6 +1,6 @@
 
 
-export default function Home() {
+export default function Login() {
   return (
       <>
       <nav className="bg-violet-700 w-auto h-20 justify-center flex">
@@ -24,3 +24,7 @@ export default function Home() {
       </>
   )
 }
+
+// eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmNjIwZTVjYTJlNmZjYzM1YzYwNGE3NGQ0YjdlMDc3OCIsInN1YiI6IjY0ZWMxNmIyZDQ4Y2VlMDExZTc2YTBmNiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.2S1ywHFNvUKDTQ0RTPWjinzTK9aeYywbliYBKZYfUpc
+
+// f620e5ca2e6fcc35c604a74d4b7e0778

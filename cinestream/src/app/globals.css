@@ -27,3 +27,20 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+::-webkit-scrollbar {
+  background:none;
+  
+  height: 10px;
+  width: 5px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+  background-color: #5b5b5b;
+  width: 5px;
+  border-radius: 5px;
+  height: 3px;
+
+}

@@ -22,7 +22,7 @@ export default function Home (){
                 <Card/>
 
             </div>
-            <h1 className=" p-8 text-lg text-violet-900 font-semibold">Talvez goste</h1>
+            <h1 className=" p-8 text-lg text-violet-900 font-semibold mt-20">Talvez goste</h1>
 
             <div className=" flex overflow-auto">
                 <Card/>

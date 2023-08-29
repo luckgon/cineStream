@@ -2,8 +2,8 @@ import Card from "@/components/Card";
 import NavBar from "@/components/NavBar";
 // import React, { useState, useEffect } from 'react'
 
-// const filmeUrl = import.meta.env.VITE_API;
-// const apiKey = import.meta.env.VITE_API_KEY;
+const filmeUrl = "https://api.themoviedb.org/3/movie/"
+const apiKey = "8ed200f50a6942ca5bc8b5cdec27ff22"
 
 
 export default function Home (){
@@ -56,12 +56,7 @@ export default function Home (){
                 <Card/>
                 <Card/>
                 <Card/>
-          
-            
-               
-                
-                
-            
+
 
             </div>
 

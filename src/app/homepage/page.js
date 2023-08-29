@@ -1,13 +1,13 @@
 import Card from "@/components/Card";
 import NavBar from "@/components/NavBar";
-import React, { useState, useEffect } from 'react'
+// import React, { useState, useEffect } from 'react'
 
-const filmeUrl = import.meta.env.VITE_API;
-const apiKey = import.meta.env.VITE_API_KEY;
+// const filmeUrl = import.meta.env.VITE_API;
+// const apiKey = import.meta.env.VITE_API_KEY;
 
 
 export default function Home (){
-    console.log(filmeUrl, apiKey);
+    // console.log(filmeUrl, apiKey);
 
     const getTopFilmes = async (url) => {
         const res = await fetch(url);
@@ -17,12 +17,12 @@ export default function Home (){
 
     }
 
-    useEffect(()=> {
+    // useEffect(()=> {
 
-        const topFilmesUrl = `${filmeUrl}top_rated?${apiKey}`
+    //     const topFilmesUrl = `${filmeUrl}top_rated?${apiKey}`
 
-        console.log(topFilmesUrl)
-    }, [])
+    //     console.log(topFilmesUrl)
+    // }, [])
 
 
 

@@ -11,26 +11,26 @@ export default function Cadastrar (){
             <main className=" pt-20 bg-gray-400 h-screen  text-violet-950 ">
                 
                 <div className=" bg-gray-300  ml-auto mr-auto w-auto max-w-[518px] h-auto rounded-md flex-row justify-center items-center p-7 shadow-xl" >
-                    <h1 className=" flex justify-center text-4xl text-violet-950 font-bold mb-10">Cadastrar novo filme</h1>
+                    <h1 className=" flex justify-center text-4xl text-violet-950 font-bold mb-10">Cadastrar novo usuário</h1>
                     <div className=" flex flex-col justify-center mt-7 items-center w-auto">
                         
 
                         <div>
-                            <p className="mt-4">Nome</p>
+                            <p className="mt-4">Nome Completo</p>
                             <input className=" flex justify-center rounded-md p-2 mt-1 w-96 h-8" type="text" placeholder='' />
 
                         </div>
                         <div>
-                            <p className="mt-4">Categoria</p>
+                            <p className="mt-4">E-mail</p>
                             <input className=" flex justify-center rounded-md p-2 mt-1 w-96 h-8" type="text" placeholder='' />
 
                         </div>
                         <div>
-                            <p className="mt-4">Data de Lançamento</p>
+                            <p className="mt-4">Senha</p>
                             <input className=" flex justify-center rounded-md p-2 mt-1 w-96 h-8" type="text" placeholder='' />
 
                         </div>
-                        <div>
+                        {/* <div>
                             <p className="mt-4">Diretor</p>
                             <input className=" flex justify-center rounded-md p-2 mt-1 w-96 h-8" type="text" placeholder='' />
 
@@ -40,7 +40,7 @@ export default function Cadastrar (){
                             
                             <textarea className=" flex justify-center rounded-md p-2 mt-1 w-96 h-auto"></textarea>
 
-                        </div>
+                        </div> */}
                         <div className=" w-96 flex flex-row justify-between  mt-10 items-center">
 
                             <div className=" flex">
